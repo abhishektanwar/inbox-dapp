@@ -3,7 +3,7 @@ const Web3 = require('web3');
 const  { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
-    'picture west maple inmate govern basket provide absurd tomorrow service exchange situate',
+    'your metamask mnemonic here',
     'https://rinkeby.infura.io/v3/aea3778c75fe4ac7bc71b96e1f770d6b'
 );
 // if we want to deploy using remix , Web3 provider, run ganache at 
