@@ -15,3 +15,5 @@ const source = fs.readFileSync(inboxPath , 'utf8');
 // after compiling the contract we need other files to use the compiled file so we export this
 
 module.exports = solc.compile(source, 1).contracts[':Inbox'];
+
+// console.log(solc.compile(source,1));
